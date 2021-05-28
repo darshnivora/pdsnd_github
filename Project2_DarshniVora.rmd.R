@@ -25,6 +25,7 @@ wash = na.omit(wash1)
 
 
 #Data Wrangling
+
 #We will now make changes to the data and join the 3 dataframes to ensure that we can easily run our code
 
 #We are adding the city field so that we do not lose that data when we combine it to one dataframe.
@@ -68,14 +69,20 @@ ggplot(aes(x=Month, fill=City), data=df) +
 #The most number of rides are taken in the month of June, for all 3 cities.
 
 #We can calculate the mean number of trips for a city in the following way:
+
 #Total number of rows (observations) in one dataframe/Number of months we have data for (6)
 #Chicago:
+
 Mean_number_of_rides_Chicago = nrow(chi)/6
 print(Mean_number_of_rides_Chicago)
+
 #Washington:
+
 Mean_number_of_rides_Washington = nrow(wash)/6
 print(Mean_number_of_rides_Washington)
+
 #New York
+
 Mean_number_of_rides_NewYork = nrow(ny)/6
 print(Mean_number_of_rides_NewYork)
 
