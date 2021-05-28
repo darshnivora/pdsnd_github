@@ -1,3 +1,13 @@
 ** README**
 
 This Repo contains the code for processing the bikeshare data. In this repo, we analyze the data to get insights into various aspects of bike ridesharing. We answer questions like the average trip duration, most popular ride cities etc
+
+** Insights **
+
+Q1 - What is the most common month?
+
+The most number of rides are taken in the month of June, for all 3 cities.
+
+Q2 - What is the total travel time for users in different cities?
+
+Solely, this data does not give us any useful information because since the total number of observations is the highest in the Washington dataframe, we see the highest records there.
