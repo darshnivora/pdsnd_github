@@ -10,12 +10,12 @@ ny1 = read.csv('new_york_city.csv')
 wash1 = read.csv('washington.csv')
 chi1 = read.csv('chicago.csv')
 
-#We will remove gender and birthyear from Chicago and New York so that there is consistency in all records
+#We will remove gender and birthyear from Chicago and New York so that there is consistency in all records. This helps in merging and sorting data efficiently.
 
 ny2 = ny1 [,c(1,2,3,4,5,6,7)]
 chi2 = chi1 [,c(1,2,3,4,5,6,7)]
 
-#We will now remove all the null values
+#We will now remove all the null values. Part of data cleanup!
 
 ny = na.omit(ny2)
 chi = na.omit(chi2)
